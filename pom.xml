@@ -15,6 +15,7 @@
                 <configuration>
                     <publicPackages>
                         <publicPackage>com.sun.jna.*</publicPackage>
+                        <publicPackage>com.ts.utils.win</publicPackage>
                     </publicPackages>
                 </configuration>
             </plugin>
