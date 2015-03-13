@@ -17,6 +17,9 @@
                         <publicPackage>com.sun.jna.*</publicPackage>
                         <publicPackage>com.ts.utils.win.*</publicPackage>
                         <publicPackage>com.sun.jna.platform.win32.*</publicPackage>
+                        <publicPackage>com.sun.jna.ptr.*</publicPackage>
+                        <publicPackage>com.sun.jna.win32.*</publicPackage>
+                        <publicPackage>com.sun.jna.platform.*</publicPackage>
                     </publicPackages>
                 </configuration>
             </plugin>
