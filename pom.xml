@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ts</groupId>
-    <artifactId>ts-jpa</artifactId>
+    <artifactId>ts-jna</artifactId>
     <version>1.0.0</version>
     <packaging>nbm</packaging>
     <build>
@@ -15,7 +15,8 @@
                 <configuration>
                     <publicPackages>
                         <publicPackage>com.sun.jna.*</publicPackage>
-                        <publicPackage>com.ts.utils.win</publicPackage>
+                        <publicPackage>com.ts.utils.win.*</publicPackage>
+                        <publicPackage>com.sun.jna.platform.win32.*</publicPackage>
                     </publicPackages>
                 </configuration>
             </plugin>
@@ -68,4 +69,5 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <name>ts-jna</name>
 </project>
